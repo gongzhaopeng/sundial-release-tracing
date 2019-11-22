@@ -1,9 +1,10 @@
-Version         :     Moon.M1
-Release Date    :     2019-11-22
-Features        :
+Version:                  Moon.M1
+Release Date:             2019-11-22
+Features:
   1.---
   2.---
-Components      :
+Access URL:               http://sundial.benbenedu.cn/admin/#/login
+Components:
                 name                               source
   - Backend -
                 sundial-resource                   dev/5110af1ad02d0a393cf495cc5bc7f33ab72e18b5

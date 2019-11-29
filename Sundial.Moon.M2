@@ -14,4 +14,4 @@ Components:
                 sundial-exampaper                  dev/10bb1f8374bfcf8b81122ca96fc700b7029dfb43
                 sundial-delivery                   dev/6279b6ef1fd8888db617ae0cb5155fe6d8f65b49
   - Frontend -
-                sundial-admin-ui                   dev/
+                sundial-admin-ui                   plane/41a232aabe72bb0e3371b1bd03f453ce29056a7b

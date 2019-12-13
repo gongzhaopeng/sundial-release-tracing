@@ -1,18 +1,19 @@
 Product Code:             Sundial                  
 Version:                  Moon.SNAPSHOT3.0.2
 Release Date:             2019-12-13
-Access URL:               http://sundial.benbenedu.cn/admin
+管理平台 URL:              http://sundial.benbenedu.cn/admin
+体验前端 URL:              http://sundial.benbenedu.cn/assess
 Features:
-  1. 全面支持反查&关联对象受控刷新(资源->题目, 资源->试卷模子, 题目->试卷模子).
-  2. 集成了简单的'模拟答题'模块,可初步体验基本的答题流程及试卷呈现效果.
-  3. Bug Fix.
-      a. 对象列表中修改某个对象时, 列表中的其它对象被交叉影响. 已实现隔离.
+  1. 管理平台中增加<账户&客户端>管理模块.
+  2. 实现了简版的考试前端, 初步模拟考试流程.
 Components:
                 name                               source
   - Backend -
-                sundial-resource                   dev/5110af1ad02d0a393cf495cc5bc7f33ab72e18b5
-                sundial-question                   dev/1ea2aa4c771f1a8dcd2098d75c51d6ddb2635f41
-                sundial-exampaper                  dev/10bb1f8374bfcf8b81122ca96fc700b7029dfb43
-                sundial-delivery                   dev/6279b6ef1fd8888db617ae0cb5155fe6d8f65b49
+                sundial-resource                   dev/0258df9b259eef1d5178c88ef4105a1e6cb133b0
+                sundial-question                   dev/5bb340b970ccc69d19cd6738a681b692dce5442e
+                sundial-exampaper                  dev/2b3965db022493f5813d9b804080bbc5d2be2d62
+                sundial-delivery                   dev/dee81cea9b6dafe541ba906a858423e36093e2ec
+                sundial-examconfig                 first_version/4f5bd09f36313506dedb727c947194a6b5e8a459
+                sundial-examstation                first_version/e970b4be6d738c07f32d784bec21cb7ad47e9840
   - Frontend -
-                sundial-admin-ui                   plane/de708cb6d084fa7c81d8120ded2beb47785a9f1d
+                sundial-admin-ui                   plane/a90283cf55215b175b9eb5790102ee18738051c6

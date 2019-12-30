@@ -1,1 +1,22 @@
-
+Product Code:             Sundial                  
+Version:                  Moon.SNAPSHOT3.1.0
+Release Date:             2019-12-30
+管理平台 URL:              http://sundial.benbenedu.cn/admin
+体验前端 URL:              http://sundial.benbenedu.cn/assess
+Features:
+  1. 管理平台中增加<考试链>管理模块, 以支持前后测等业务概念.
+  2. 管理平台中增加<白名单>及<测评码>管理模块, 进而丰富了考试/考试链准入机制.
+  3. 管理平台上第一阶段计划内的所有功能点&业务流程已整体实现.
+  4. 考试站集成了权限控制, 结合客户端信息/账户信息/角色等对相关接口的访问进行限制.
+  5. 体验前端进一步完善了考试流程(第一阶段重点针对阅读产品).
+Components:
+                name                               source
+  - Backend -
+                sundial-resource                   dev/2679cf026f441d65edf9e341a050d5c99ae8fde6
+                sundial-question                   dev/ed35b244ef6291faabd84b82d0d1ac53e0dd7ab0
+                sundial-exampaper                  dev/f3b6755340ff93f5a2bb5c746d84fa7984727de1
+                sundial-delivery                   dev/1778f2e2b101cb6963eea21fa2488eb5e2c8bdd3
+                sundial-examconfig                 dev/35b122ecd79c03e55c7ce4db7b788b0493318c61
+                sundial-examstation                dev/71a0c8f10e245798f25bbab3bddf8e84bbf00606
+  - Frontend -
+                sundial-admin-ui                   plane/9ec9c7449ef585f8342f1657902202e1dad57ad1
